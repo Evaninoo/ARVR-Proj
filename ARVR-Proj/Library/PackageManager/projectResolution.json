@@ -63,6 +63,14 @@
       "version": "1.9.5",
       "source": "registry"
     },
+    "com.unity.xr.arcore@6.0.5": {
+      "name": "com.unity.xr.arcore",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.xr.arcore",
+      "fingerprint": "dff6e4f108dbc9e3cbfa7783d553d368677dc4b7",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "6.0.5",
+      "source": "registry"
+    },
     "com.unity.xr.arfoundation@6.0.5": {
       "name": "com.unity.xr.arfoundation",
       "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.xr.arfoundation",

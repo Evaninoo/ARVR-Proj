@@ -411,8 +411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_ImageStabilization: 0
   m_LightEstimation: 0
@@ -487,6 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835487884}
   - component: {fileID: 1835487883}
+  - component: {fileID: 1835487885}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -527,6 +528,22 @@ Transform:
   - {fileID: 1701258627}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1835487885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835487882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060a194b1e6685545ba8ce1f76757140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyPrefab: {fileID: 7975188902358471081, guid: e99759f7860151342a8c47565f18bfc3, type: 3}
+  camTransform: {fileID: 1740211032}
+  EnemyNumber: 10
+  SpawnRange: 3
 --- !u!1 &2138660485
 GameObject:
   m_ObjectHideFlags: 0
