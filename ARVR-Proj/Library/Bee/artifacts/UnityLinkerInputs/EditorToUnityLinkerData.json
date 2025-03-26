@@ -406,6 +406,24 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystem",
+            "fullManagedTypeName": "UnityEngine.ParticleSystem",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/AR Scene 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemRenderer",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/AR Scene 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "QualitySettings",
             "fullManagedTypeName": "UnityEngine.QualitySettings",
             "moduleName": "Core",

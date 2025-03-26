@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 1428008573}
   - component: {fileID: 1428008572}
   m_Layer: 0
-  m_Name: PlayerInput
+  m_Name: Input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f76b4fde127f540ac7d481d25f3134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 5699675142505042128, guid: 9cba330464eb7cb4292c2e28ed77ce75, type: 3}
   playerInput: {fileID: 1428008572}
 --- !u!1 &1835487882
 GameObject:

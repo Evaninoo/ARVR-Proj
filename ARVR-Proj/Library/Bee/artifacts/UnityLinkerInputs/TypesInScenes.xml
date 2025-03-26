@@ -55,6 +55,8 @@
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
+		<type fullname="UnityEngine.ParticleSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.ParticleSystemRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>

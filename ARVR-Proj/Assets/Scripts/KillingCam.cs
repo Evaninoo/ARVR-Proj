@@ -21,7 +21,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         touchPressAction = playerInput.actions["TouchPress"];
         touchPosAction = playerInput.actions["TouchPos"];
-
     }
 
     void Update()
