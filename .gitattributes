@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+ARVR-Proj/Build/UnityPlayer.dll filter=lfs diff=lfs merge=lfs -text
+ARVR-Proj/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
