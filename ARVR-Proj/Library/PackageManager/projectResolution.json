@@ -63,6 +63,14 @@
       "version": "1.9.5",
       "source": "registry"
     },
+    "com.unity.xr.arfoundation@6.0.5": {
+      "name": "com.unity.xr.arfoundation",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.xr.arfoundation",
+      "fingerprint": "b18f5959dab1098961480eeff6b97f7b68c2bc8c",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "6.0.5",
+      "source": "registry"
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.modules.accessibility",
@@ -267,6 +275,38 @@
       "version": "1.0.0",
       "source": "builtin"
     },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.mathematics",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
+      "source": "registry"
+    },
+    "com.unity.xr.core-utils@2.4.0": {
+      "name": "com.unity.xr.core-utils",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.xr.core-utils",
+      "fingerprint": "50db0cb8b196e68b673fa5d26ac897afc6c1a282",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.4.0",
+      "source": "registry"
+    },
+    "com.unity.xr.management@4.5.0": {
+      "name": "com.unity.xr.management",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.xr.management",
+      "fingerprint": "3126858600e621b17ff9bfda920ebf34b9f2414c",
+      "editorCompatibility": "2020.3.15f1",
+      "version": "4.5.0",
+      "source": "registry"
+    },
+    "com.unity.editorcoroutines@1.0.0": {
+      "name": "com.unity.editorcoroutines",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.editorcoroutines",
+      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "editorCompatibility": "2018.1.0a1",
+      "version": "1.0.0",
+      "source": "registry"
+    },
     "com.unity.ide.visualstudio@2.0.22": {
       "name": "com.unity.ide.visualstudio",
       "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.ide.visualstudio",
@@ -281,14 +321,6 @@
       "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
       "editorCompatibility": "2019.2.6f1",
       "version": "3.0.31",
-      "source": "registry"
-    },
-    "com.unity.editorcoroutines@1.0.0": {
-      "name": "com.unity.editorcoroutines",
-      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.editorcoroutines",
-      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
-      "editorCompatibility": "2018.1.0a1",
-      "version": "1.0.0",
       "source": "registry"
     },
     "com.unity.performance.profile-analyzer@1.2.2": {
@@ -313,6 +345,14 @@
       "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.2.6",
+      "source": "registry"
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.11": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "resolvedPath": "C:\\Users\\evanb\\Desktop\\ARVR-Proj\\ARVR-Proj\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers",
+      "fingerprint": "a3936666e06871a5fd0461a69a4d99efb31a21c1",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.11",
       "source": "registry"
     },
     "com.unity.settings-manager@2.0.1": {

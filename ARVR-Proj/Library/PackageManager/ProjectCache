@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638779699299484485
-    m_Hash: 4272980172
+      ticks: 638785749284790235
+    m_Hash: 868184322
   m_LockFileStatus:
     m_FilePath: C:/Users/evanb/Desktop/ARVR-Proj/ARVR-Proj/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638779699299567903
-    m_Hash: 3969516496
+      ticks: 638785749284828333
+    m_Hash: 4048392611
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -381,11 +381,13 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     compatible:
     - 1.11.2
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -978,6 +980,288 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.5
     minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.xr.arfoundation@6.0.5
+  testable: 0
+  isDirectDependency: 1
+  version: 6.0.5
+  source: 1
+  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.xr.arfoundation
+  assetPath: Packages/com.unity.xr.arfoundation
+  name: com.unity.xr.arfoundation
+  displayName: AR Foundation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: AR Foundation enables you to create multi-platform augmented reality
+    (AR) apps with Unity. To learn more about AR Foundation, click the Documentation
+    link above.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 2.0.2
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.8
+    - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.6
+    - 3.0.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.3
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.1.0-pre.1
+    - 6.1.0-pre.2
+    - 6.1.0-pre.3
+    - 6.1.0-pre.4
+    - 6.1.0-pre.5
+    - 6.1.0
+    compatible:
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.1.0-pre.1
+    - 6.1.0-pre.2
+    - 6.1.0-pre.3
+    - 6.1.0-pre.4
+    - 6.1.0-pre.5
+    - 6.1.0
+    recommended: 6.0.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.6.3
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.xr.core-utils
+    version: 2.3.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.12.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.xr.core-utils
+    version: 2.4.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.5.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - xreditorsubsystem
+  - xr
+  - ar
+  - augmented
+  - mixed
+  - reality
+  - foundation
+  - core
+  - subsystem
+  - simulation
+  - visualscripting
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638733631271970000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: 3aa900e00a22660ff50271b927726aaec2e2b407
+    path: 
+  unityLifecycle:
+    version: 6.0.3
+    nextVersion: 6.1.0-pre.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the `SimulationEnvironmentProbeSubsystem`
+    so that [automatic placement](xref:arfoundation-environment-probes#automatic-placement)
+    of environment probes can be enabled or disabled, as is possible on other AR
+    platforms.\n- Fixed the AR Environment Probe Manager component so that it can
+    no longer throw an `ArgumentNullException` when you unload a scene containing
+    one or more environment probes."}'
+  assetStore:
+    productId: 
+  fingerprint: b18f5959dab1098961480eeff6b97f7b68c2bc8c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.0.3
+    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3399,6 +3683,452 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.mathematics
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.3.2
+    recommended: 1.3.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.xr.core-utils@2.4.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.4.0
+  source: 1
+  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.xr.core-utils
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  errors: []
+  versions:
+    all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+    compatible:
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+    recommended: 2.4.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638683263755590000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 591a224bb2f7ec06a2a9b25e4350e0bcf9cd8d01
+    path: 
+  unityLifecycle:
+    version: 2.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added [ReadOnlyList\\<T\\>.Empty()](xref:Unity.XR.CoreUtils.Collections.ReadOnlyList`1.Empty),
+    a static shortcut method that allows you to re-use the same empty collection
+    throughout your app.\n- Added new collection [ReadOnlyListSpan\\<T\\>](xref:Unity.XR.CoreUtils.Collections.ReadOnlyListSpan)
+    that creates a read-only wrapper around a `List` and allows for slicing similar
+    to [ReadOnlySpan.Slice](https://learn.microsoft.com/en-us/dotnet/api/system.readonlyspan-1.slice?view=net-8.0).\n\n###
+    Changed\n\n- Changed the minimum version of supported Unity editor to 2021.3
+    LTS.\n\n### Removed\n\n- Removed `Type.GetFieldsWithAttribute` and `ReflectionUtils.GetFieldsWithAttribute`
+    APIs which were only available in Unity 2019.4.\n\n### Fixed\n\n- Improved performance
+    of [HashSetList\\<T\\>](xref:Unity.XR.CoreUtils.Collections.HashSetList`1) to
+    optimize getting `Count` and optimize `Remove` when empty.\n- Improved performance
+    of [BindableVariableBase\\<T\\>](xref:Unity.XR.CoreUtils.Bindings.Variables.BindableVariableBase`1)
+    to optimize value changes by skipping the equality check when there are no subscribers.
+    The `SetValueWithoutNotify` method will now always return `false` when there
+    are no subscribers."}'
+  assetStore:
+    productId: 
+  fingerprint: 50db0cb8b196e68b673fa5d26ac897afc6c1a282
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.4.0
+    minimumUnityVersion: 2021.3.0f1
+- packageId: com.unity.xr.management@4.5.0
+  testable: 0
+  isDirectDependency: 0
+  version: 4.5.0
+  source: 1
+  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.xr.management
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Package that provides simple management of XR plug-ins. Manages and
+    offers help with loading, initialization, settings, and build support for XR
+    plug-ins.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    - 4.4.0
+    - 4.4.1
+    - 4.5.0
+    compatible:
+    - 4.5.0
+    recommended: 4.5.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.7
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638560264920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: fa86b200cd8cd1b75a57534d44d41cc7b6b7f58d
+    path: 
+  unityLifecycle:
+    version: 4.5.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed compile errors on Unity versions
+    [2023.1.0f1 - 2023.2.6f1] caused by missing `BuildTargetGroup.VisionOS` enum
+    value.\n\n### Added\n- Added Android manifest support for applications that use
+    Game Activity entry point. Note that Game Activities are only supported in projects
+    made with Unity versions 2023.1 onwards."}'
+  assetStore:
+    productId: 
+  fingerprint: 3126858600e621b17ff9bfda920ebf34b9f2414c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.5.0
+    minimumUnityVersion: 2020.3.15f1
+- packageId: com.unity.editorcoroutines@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.editorcoroutines
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - coroutine
+  - coroutines
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637232611380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2018.1.0a1
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
@@ -3626,83 +4356,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
     minimumUnityVersion: 2019.2.6f1
-- packageId: com.unity.editorcoroutines@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 1
-  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.editorcoroutines
-  assetPath: Packages/com.unity.editorcoroutines
-  name: com.unity.editorcoroutines
-  displayName: Editor Coroutines
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
-    objects. '
-  errors: []
-  versions:
-    all:
-    - 0.0.1-preview.3
-    - 0.0.1-preview.4
-    - 0.0.1-preview.5
-    - 0.0.2-preview.1
-    - 0.1.0-preview.1
-    - 0.1.0-preview.2
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - coroutine
-  - coroutines
-  - editor
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2018.1.0a1
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
@@ -4077,6 +4730,124 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.2.6
     minimumUnityVersion: 2019.3.0a1
+- packageId: com.unity.xr.legacyinputhelpers@2.1.11
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.11
+  source: 1
+  resolvedPath: C:\Users\evanb\Desktop\ARVR-Proj\ARVR-Proj\Library\PackageCache\com.unity.xr.legacyinputhelpers
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 2.1.12
+    compatible:
+    - 2.1.11
+    - 2.1.12
+    recommended: 2.1.12
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638627703211970000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 43a3dc5e306cc961f9f0121a31ec3bd1285cf1a7
+    path: 
+  unityLifecycle:
+    version: 2.1.11
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Removed an empty script file and corresponding
+    meta file."}'
+  assetStore:
+    productId: 
+  fingerprint: a3936666e06871a5fd0461a69a4d99efb31a21c1
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.1.11
+    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
