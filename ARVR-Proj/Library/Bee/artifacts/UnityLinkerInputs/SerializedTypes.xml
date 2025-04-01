@@ -8,7 +8,11 @@
 		<type fullname="UnityEngine.InputSystem.PlayerInput/DeviceLostEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Unity.XR.ARFoundation">
+		<type fullname="UnityEngine.XR.ARFoundation.ARTrackablesChangedEventArgs`1" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="UnityEngine.CoreModule">
 		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true"/>
 	</assembly>
 </linker>
