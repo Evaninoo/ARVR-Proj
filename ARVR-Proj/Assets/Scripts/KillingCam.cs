@@ -20,6 +20,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     //
 
+    public GameObject PanelUI;
+
     public PlayerInput PlayerInput;
     private TMP_Text countText;
     private int cubeCount;
@@ -68,5 +70,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
             }
         }
 
+    }
+    public void TogglePanel()
+    {
+        if (PanelUI != null)
+        {
+            PanelUI.SetActive(!PanelUI.activeSelf);
+        }
     }
 }
