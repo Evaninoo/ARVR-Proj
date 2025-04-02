@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class KillingCam : MonoBehaviour
 {
     public Text countText;
-    private int killCount = 0;
+    public int killCount = 0;
     private Camera cam;
 
     public GameObject ParticleEffect;

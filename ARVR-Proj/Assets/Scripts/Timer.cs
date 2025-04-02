@@ -3,10 +3,13 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public float timeRemaining = 10f;
+    public float timeRemaining = 30f;
     public Text timerText;
     public Image winImage;
     public Image loseImage;
+    
+    public KillingCam killingCam; 
+    public int killThreshold = 10;
 
     private bool timerRunning = true;
     private bool win = false;
@@ -16,14 +19,8 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
-        if (winImage != null)
-        {
-            winImage.gameObject.SetActive(false);
-        }
-        if (loseImage != null)
-        {
-            loseImage.gameObject.SetActive(false);
-        }
+        if (winImage != null) winImage.gameObject.SetActive(false);
+        if (loseImage != null) loseImage.gameObject.SetActive(false);
         UpdateTimerUI();
     }
 
@@ -40,7 +37,7 @@ public class Timer : MonoBehaviour
             {
                 timeRemaining = 0;
                 timerRunning = false;
-                UpdateTimerUI();
+                CheckWinCondition();
                 ShowEndScreen();
             }
         }
@@ -63,36 +60,31 @@ public class Timer : MonoBehaviour
         }
     }
 
+    void CheckWinCondition()
+    {
+        if (killingCam != null)
+        {
+            win = killingCam.killCount >= killThreshold;
+        }
+    }
+
     void ShowEndScreen()
     {
         if (win)
         {
-            if (winImage != null)
-            {
-                winImage.gameObject.SetActive(true);
-                imageShown = true;
-            }
+            if (winImage != null) winImage.gameObject.SetActive(true);
         }
         else
         {
-            if (loseImage != null)
-            {
-                loseImage.gameObject.SetActive(true);
-                imageShown = true;
-            }
+            if (loseImage != null) loseImage.gameObject.SetActive(true);
         }
+        imageShown = true;
     }
 
     void HideImage()
     {
-        if (winImage != null)
-        {
-            winImage.gameObject.SetActive(false);
-        }
-        if (loseImage != null)
-        {
-            loseImage.gameObject.SetActive(false);
-        }
+        if (winImage != null) winImage.gameObject.SetActive(false);
+        if (loseImage != null) loseImage.gameObject.SetActive(false);
         imageShown = false;
         imageTimer = 0f;
     }

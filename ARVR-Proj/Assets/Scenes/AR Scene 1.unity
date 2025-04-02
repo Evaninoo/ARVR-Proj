@@ -1029,6 +1029,8 @@ MonoBehaviour:
   timerText: {fileID: 1615776336}
   winImage: {fileID: 1848110611}
   loseImage: {fileID: 1563201353}
+  killingCam: {fileID: 1740211038}
+  killThreshold: 5
 --- !u!114 &1615776336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,6 +1348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countText: {fileID: 1827668359}
+  killCount: 0
   ParticleEffect: {fileID: 5699675142505042128, guid: 9cba330464eb7cb4292c2e28ed77ce75, type: 3}
   playerInput: {fileID: 1428008572}
 --- !u!1 &1827668357
