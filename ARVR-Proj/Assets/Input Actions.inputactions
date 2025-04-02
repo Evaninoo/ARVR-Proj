@@ -40,15 +40,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "TouchPhase",
-                    "type": "Button",
-                    "id": "7d675c56-955c-445a-b1b9-a3bdd4db356d",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -115,17 +106,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "TouchPos",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e5341b21-6840-4c8c-a3b3-803ada443a3e",
-                    "path": "<Touchscreen>/primaryTouch/press",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "TouchPhase",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

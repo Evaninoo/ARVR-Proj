@@ -6,6 +6,9 @@ MonoImporter:
   defaultReferences:
   - ParticleEffect: {fileID: 5699675142505042128, guid: 9cba330464eb7cb4292c2e28ed77ce75, type: 3}
   - playerInput: {instanceID: 0}
+  - PanelUI: {instanceID: 0}
+  - RaycastManager: {instanceID: 0}
+  - PrefabToInstantiate: {fileID: 3383042290945517141, guid: e99759f7860151342a8c47565f18bfc3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -1,36 +1,17 @@
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
-using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.ARSubsystems;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class KillingCam : MonoBehaviour
 {
-
-    public GameObject ParticleEffect;
-    private Vector2 touchPos;
-    private RaycastHit hit;
+    public Text countText;
+    private int killCount = 0;
     private Camera cam;
 
-    private InputAction touchPhaseAction;
+    public GameObject ParticleEffect;
     public PlayerInput playerInput;
     private InputAction touchPressAction;
     private InputAction touchPosAction;
-
-    //
-
-    public GameObject PanelUI;
-
-    public PlayerInput PlayerInput;
-    private TMP_Text countText;
-    private int cubeCount;
-    private List<GameObject> instantiatedCubes;
-
-    public ARRaycastManager RaycastManager;
-    public TrackableType TypeToTrack = TrackableType.PlaneWithinBounds;
-    public GameObject PrefabToInstantiate;
-
 
     void Start()
     {
@@ -38,49 +19,38 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         touchPressAction = playerInput.actions["TouchPress"];
         touchPosAction = playerInput.actions["TouchPos"];
-        touchPhaseAction = PlayerInput.actions["TouchPhase"];
-        cubeCount = 0;
 
-        if (PanelUI != null)
-        {
-            PanelUI.SetActive(false); // Cacher le panel au départ
-        }
+        UpdateUI();
     }
 
     void Update()
     {
-        if (!touchPressAction.WasPerformedThisFrame())
-        {
-            return;
-        }
+        if (!touchPressAction.WasPerformedThisFrame()) return;
 
-        touchPos = touchPosAction.ReadValue<Vector2>();
+        Vector2 touchPos = touchPosAction.ReadValue<Vector2>();
         Ray ray = cam.ScreenPointToRay(touchPos);
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out RaycastHit hit))
         {
             GameObject hitObj = hit.collider.gameObject;
-            if (hitObj.tag == "Enemy")
+
+            if (hit.collider.CompareTag("Enemy"))
             {
                 var clone = Instantiate(ParticleEffect, hitObj.transform.position, Quaternion.identity);
                 clone.transform.localScale = hitObj.transform.localScale;
                 Destroy(hitObj);
 
-
-                GameObject cube = Instantiate(PrefabToInstantiate, hitObj.transform.position, hitObj.transform.rotation);
-                instantiatedCubes.Add(cube);
-                cubeCount += 1;
-                countText.text = "Cubes: " + cubeCount;
-
+                killCount++;
+                UpdateUI();
             }
         }
-
     }
-    public void TogglePanel()
+
+    void UpdateUI()
     {
-        if (PanelUI != null)
+        if (countText != null)
         {
-            PanelUI.SetActive(!PanelUI.activeSelf);
+            countText.text = "Killed : " + killCount;
         }
     }
 }

@@ -10,6 +10,9 @@ public class Timer : MonoBehaviour
 
     private bool timerRunning = true;
     private bool win = false;
+    private bool imageShown = false;
+    private float imageDisplayTime = 5f;
+    private float imageTimer = 0f;
 
     void Start()
     {
@@ -41,6 +44,15 @@ public class Timer : MonoBehaviour
                 ShowEndScreen();
             }
         }
+
+        if (imageShown)
+        {
+            imageTimer += Time.deltaTime;
+            if (imageTimer >= imageDisplayTime)
+            {
+                HideImage();
+            }
+        }
     }
 
     void UpdateTimerUI()
@@ -58,6 +70,7 @@ public class Timer : MonoBehaviour
             if (winImage != null)
             {
                 winImage.gameObject.SetActive(true);
+                imageShown = true;
             }
         }
         else
@@ -65,7 +78,22 @@ public class Timer : MonoBehaviour
             if (loseImage != null)
             {
                 loseImage.gameObject.SetActive(true);
+                imageShown = true;
             }
         }
+    }
+
+    void HideImage()
+    {
+        if (winImage != null)
+        {
+            winImage.gameObject.SetActive(false);
+        }
+        if (loseImage != null)
+        {
+            loseImage.gameObject.SetActive(false);
+        }
+        imageShown = false;
+        imageTimer = 0f;
     }
 }
