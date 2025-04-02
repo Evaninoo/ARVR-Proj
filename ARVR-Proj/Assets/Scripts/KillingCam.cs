@@ -1,5 +1,9 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -9,10 +13,21 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private RaycastHit hit;
     private Camera cam;
 
-
+    private InputAction touchPhaseAction;
     public PlayerInput playerInput;
     private InputAction touchPressAction;
     private InputAction touchPosAction;
+
+    //
+
+    public PlayerInput PlayerInput;
+    private TMP_Text countText;
+    private int cubeCount;
+    private List<GameObject> instantiatedCubes;
+
+    public ARRaycastManager RaycastManager;
+    public TrackableType TypeToTrack = TrackableType.PlaneWithinBounds;
+    public GameObject PrefabToInstantiate;
 
 
     void Start()
@@ -21,6 +36,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         touchPressAction = playerInput.actions["TouchPress"];
         touchPosAction = playerInput.actions["TouchPos"];
+        touchPhaseAction = PlayerInput.actions["TouchPhase"];
+        cubeCount = 0;
     }
 
     void Update()
@@ -41,6 +58,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 var clone = Instantiate(ParticleEffect, hitObj.transform.position, Quaternion.identity);
                 clone.transform.localScale = hitObj.transform.localScale;
                 Destroy(hitObj);
+
+
+                GameObject cube = Instantiate(PrefabToInstantiate, hitObj.transform.position, hitObj.transform.rotation);
+                instantiatedCubes.Add(cube);
+                cubeCount += 1;
+                countText.text = "Cubes: " + cubeCount;
+
             }
         }
 
