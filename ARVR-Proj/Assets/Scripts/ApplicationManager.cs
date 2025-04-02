@@ -1,4 +1,7 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ApplicationManager : MonoBehaviour
 {
@@ -6,6 +9,8 @@ public class ApplicationManager : MonoBehaviour
     public Transform camTransform;
     public int EnemyNumber = 10;
     public float SpawnRange = 3f;
+
+   
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
