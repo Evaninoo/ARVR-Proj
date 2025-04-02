@@ -38,7 +38,9 @@ public class KillingCam : MonoBehaviour
             {
                 var clone = Instantiate(ParticleEffect, hitObj.transform.position, Quaternion.identity);
                 clone.transform.localScale = hitObj.transform.localScale;
+                Destroy(clone, 3f);
                 Destroy(hitObj);
+
 
                 killCount++;
                 UpdateUI();
