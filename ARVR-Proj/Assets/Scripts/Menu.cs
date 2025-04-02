@@ -4,19 +4,15 @@ public class Menu : MonoBehaviour
 {
     public GameObject Panel;
 
-    public void OpenPanel()
+    public void TogglePanel()
     {
-        if (Panel != null)
-        {
-            Panel.SetActive(true);
-        }
+       Panel.SetActive(!Panel.activeSelf);
     }
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
