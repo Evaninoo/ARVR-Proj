@@ -40,6 +40,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
         touchPosAction = playerInput.actions["TouchPos"];
         touchPhaseAction = PlayerInput.actions["TouchPhase"];
         cubeCount = 0;
+
+        if (PanelUI != null)
+        {
+            PanelUI.SetActive(false); // Cacher le panel au départ
+        }
     }
 
     void Update()
