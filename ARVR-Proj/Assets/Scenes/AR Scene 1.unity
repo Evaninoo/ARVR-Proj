@@ -214,11 +214,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 598745178}
-  - {fileID: 1894146086}
   - {fileID: 1827668358}
   - {fileID: 1615776334}
   - {fileID: 1848110610}
   - {fileID: 1563201352}
+  - {fileID: 1894146086}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -975,7 +975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000091552734}
+  m_AnchoredPosition: {x: 0, y: -0.00012207031}
   m_SizeDelta: {x: -708.959, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563201353
@@ -1103,7 +1103,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Time : '
+  m_Text: 'Timer : '
 --- !u!222 &1615776337
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1537,7 +1537,7 @@ MonoBehaviour:
   EnemyPrefab: {fileID: 7975188902358471081, guid: e99759f7860151342a8c47565f18bfc3, type: 3}
   camTransform: {fileID: 1740211032}
   EnemyNumber: 10
-  SpawnRange: 3
+  SpawnRange: 5
 --- !u!1 &1848110609
 GameObject:
   m_ObjectHideFlags: 0
